@@ -10,6 +10,7 @@
   },
   "lint-staged": {
     "*.js": [
+      "pretty-quick --staged",
       "eslint --fix",
       "stylelint './src/**/style.js'",
       "cross-env CI=true yarn test --bail --findRelatedTests",
