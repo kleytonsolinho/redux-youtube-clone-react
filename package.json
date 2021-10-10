@@ -2,20 +2,6 @@
   "name": "redux-youtube-clone-react",
   "version": "0.1.0",
   "private": true,
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo 'teste'"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "pretty-quick --staged",
-      "eslint --fix",
-      "stylelint './src/**/style.js'",
-      "cross-env CI=true yarn test --bail --findRelatedTests",
-      "git add"
-    ]
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -70,5 +56,19 @@
     "stylelint": "^13.13.1",
     "stylelint-config-recommended": "^5.0.0",
     "stylelint-config-styled-components": "^0.1.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo 'teste'"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix",
+      "stylelint './src/**/style.js'",
+      "cross-env CI=true yarn test --bail --findRelatedTests",
+      "git add"
+    ]
   }
 }
