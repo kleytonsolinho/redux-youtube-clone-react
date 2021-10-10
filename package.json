@@ -22,7 +22,9 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "prettier",
+      "prettier/react"
     ]
   },
   "browserslist": {
@@ -59,7 +61,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo 'teste'"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
@@ -67,7 +69,6 @@
       "prettier --write",
       "eslint --fix",
       "stylelint './src/**/style.js'",
-      "cross-env CI=true yarn test --bail --findRelatedTests",
       "git add"
     ]
   }
