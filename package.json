@@ -4,7 +4,7 @@
   "private": true,
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "echo 'teste'"
     }
   },
   "lint-staged": {
@@ -30,7 +30,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "commit": "yarn lint-staged"
   },
   "eslintConfig": {
     "extends": [
@@ -67,7 +68,6 @@
     "prettier": "^2.4.1",
     "stylelint": "^13.13.1",
     "stylelint-config-recommended": "^5.0.0",
-    "stylelint-config-styled-components": "^0.1.1",
-    "stylelint-processor-styled-components": "^1.10.0"
+    "stylelint-config-styled-components": "^0.1.1"
   }
 }
