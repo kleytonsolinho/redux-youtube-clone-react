@@ -20,7 +20,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: #141414;
+    background: #181818;
     color: #ffffff;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
