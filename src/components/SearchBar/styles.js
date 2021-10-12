@@ -4,15 +4,22 @@ export const Container = styled.div`
   width: 100%;
   height: 60px;
   padding: 0 2rem;
+  background-color: #212121;
   border-bottom: 1px solid rgba(221, 221, 221, 0.1);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   .icon {
+    font-size: 1.5rem;
     color: #ffffff;
-    font-size: 1.3rem;
+    margin-right: 20px;
     cursor: pointer;
   }
 `;
@@ -26,7 +33,7 @@ export const Logo = styled.div`
   justify-content: center;
 
   img {
-    height: 60px;
+    height: 20px;
   }
 `;
 
@@ -63,6 +70,14 @@ export const Search = styled.div`
     border-bottom-right-radius: 3px;
     color: #ffffff;
   }
+
+  button:nth-of-type(2) {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #181818;
+  }
 `;
 
 export const Channel = styled.div`
@@ -77,5 +92,6 @@ export const Channel = styled.div`
     width: 36px;
     height: 36px;
     border-radius: 50%;
+    cursor: pointer;
   }
 `;

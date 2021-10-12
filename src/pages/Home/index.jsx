@@ -1,11 +1,13 @@
 import { Container } from './styles';
 
-import SearchBar from '../../components/SearchBar';
+import Navbar from '../../components/Navbar';
+import Searchbar from '../../components/Searchbar';
 
 export default function Home() {
   return (
     <Container>
-      <SearchBar />
+      <Searchbar />
+      <Navbar />
       <h1>Home Page</h1>
     </Container>
   );

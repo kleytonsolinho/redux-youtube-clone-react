@@ -1,23 +1,29 @@
 import {
-  FiSearch, FiVideo, FiGrid, FiBell,
+  FiMenu, FiSearch, FiVideo, FiGrid, FiBell,
 } from 'react-icons/fi';
 
-import imgLogo from '../../assets/images/YouTube-Logo.svg';
+import { FaMicrophone } from 'react-icons/fa';
+
+import imgLogo from '../../assets/images/logo-youtube.png';
 
 import {
   Container, Logo, Search, Channel,
 } from './styles';
 
-export default function SearchBar() {
+export default function Searchbar() {
   return (
     <Container>
       <Logo>
-        <img src={imgLogo} alt="" />
+        <FiMenu className="icon" />
+        <img src={imgLogo} alt="Logo YouTube" />
       </Logo>
       <Search>
         <input type="text" placeholder="Pesquisar" />
         <button type="button">
           <FiSearch />
+        </button>
+        <button type="button">
+          <FaMicrophone />
         </button>
       </Search>
       <Channel>
