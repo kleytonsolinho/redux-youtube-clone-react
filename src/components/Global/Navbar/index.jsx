@@ -10,6 +10,7 @@ import {
   FaRegFlag,
   FaRegQuestionCircle,
   FaRegCommentDots,
+  FaYoutube,
 } from 'react-icons/fa';
 
 import { Container } from './styles';
@@ -47,6 +48,45 @@ export default function Navbar() {
         <li>
           <FaRegClock className="icon" />
           Assistir mais tarde
+        </li>
+      </ul>
+      <ul>
+        <strong>O melhor do Youtube</strong>
+        <li>
+          <span><FaYoutube className="icon-radius" /></span>
+          Tudo
+        </li>
+        <li>
+          <span><FaYoutube className="icon-radius" /></span>
+          Ao vivo
+        </li>
+        <li>
+          <span><FaYoutube className="icon-radius" /></span>
+          Música
+        </li>
+        <li>
+          <span><FaYoutube className="icon-radius" /></span>
+          Podcast
+        </li>
+        <li>
+          <span><FaYoutube className="icon-radius" /></span>
+          Chill Out
+        </li>
+        <li>
+          <span><FaYoutube className="icon-radius" /></span>
+          Carro esportivo
+        </li>
+        <li>
+          <span><FaYoutube className="icon-radius" /></span>
+          Apple
+        </li>
+        <li>
+          <span><FaYoutube className="icon-radius" /></span>
+          Ações
+        </li>
+        <li>
+          <span><FaYoutube className="icon-radius" /></span>
+          Enviados recentemente
         </li>
       </ul>
       <ul>

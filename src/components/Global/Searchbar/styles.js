@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   height: 60px;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   background-color: #212121;
   border-bottom: 1px solid rgba(221, 221, 221, 0.1);
 
@@ -49,7 +49,7 @@ export const Search = styled.div`
     width: 500px;
     height: 40px;
     padding: 5px;
-    color: #313131;
+    color: #ffffff;
     font-size: 1.1rem;
     background-color: #121212;
     border-top-left-radius: 3px;

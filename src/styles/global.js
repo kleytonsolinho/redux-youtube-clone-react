@@ -33,12 +33,12 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body::-webkit-scrollbar {
-    width: 5px;
+    width: 8px;
   }
 
   body::-webkit-scrollbar-thumb {
-    background: red;
-    border-radius: 2px;
+    background: #aaa;
+    border-radius: 4px;
   }
 
   body::-webkit-scrollbar-track {
