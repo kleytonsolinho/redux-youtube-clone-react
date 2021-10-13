@@ -10,11 +10,11 @@ export default function Searchthumb() {
         <span>16:16</span>
       </Video>
       <Info>
-        <strong>esse é o homem mais idoso do youtube</strong>
+        <strong>Como proteger seu patrimônio da inflação?</strong>
         <span>500 visualizações - há 50 minutos</span>
         <div>
           <img src="https://github.com/kleytonsolinho.png" alt="" />
-          <p>Flow Fora de Contexto</p>
+          <p>Você mais rico - Bruno Perini</p>
         </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.

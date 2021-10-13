@@ -11,8 +11,8 @@ export default function Videothumb() {
       <Info>
         <img src="https://github.com/kleytonsolinho.png" alt="" />
         <div>
-          <h3>esse é o homem mais idoso do youtube</h3>
-          <p>Flow Fora de Contexto</p>
+          <h3>Como proteger seu patrimônio da inflação?</h3>
+          <p>Você mais rico - Bruno Perini</p>
           <span>500 visualizações - há 50 minutos</span>
         </div>
       </Info>

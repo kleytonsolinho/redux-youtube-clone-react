@@ -10,8 +10,8 @@ export default function Relatedvideo() {
         <span>16:16</span>
       </Video>
       <Info>
-        <strong>esse é o homem mais idoso do youtube</strong>
-        <p>Flow Fora de Contexto</p>
+        <strong>Como proteger seu patrimônio da inflação?</strong>
+        <p>Você mais rico - Bruno Perini</p>
         <span>500 visualizações</span>
         <span>há 50 minutos</span>
       </Info>
